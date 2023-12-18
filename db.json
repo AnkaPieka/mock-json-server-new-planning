@@ -1,1 +1,24 @@
-{}
+{
+    "events": [
+        {
+            "user_id": 109,
+            "slot_id": 1648,
+            "associate_id": null,
+            "date": "2022-09-09",
+            "message": null,
+            "special_event_types_ids": []
+        },
+        {
+            "user_id": 120,
+            "slot_id": 1649,
+            "associate_id": null,
+            "date": "2022-09-09"
+        },
+        {
+            "user_id": 110,
+            "slot_id": 1649,
+            "associate_id": null,
+            "date": "2022-09-09"
+        }
+    ]
+}
