@@ -24,36 +24,6 @@
       "id": 5,
       "first_name": "Oliver",
       "last_name": "Brown"
-    },
-    {
-      "id": 10,
-      "first_name": "Stanislaus",
-      "last_name": "Phillips"
-    },
-    {
-      "id": 11,
-      "first_name": "Sora",
-      "last_name": "Carter"
-    },
-    {
-      "id": 12,
-      "first_name": "Thomas",
-      "last_name": "Holmes"
-    },
-    {
-      "id": 13,
-      "first_name": "Kit",
-      "last_name": "Allen"
-    },
-    {
-      "id": 14,
-      "first_name": "Bedrich",
-      "last_name": "Duncan"
-    },
-    {
-      "id": 15,
-      "first_name": "Maximilian",
-      "last_name": "Morri"
     }
   ],
   "slots": [
@@ -116,30 +86,6 @@
       "service_id": 4,
       "name": "Après-midi",
       "color": "#2B4162"
-    },
-    {
-      "id": 11,
-      "service_id": 5,
-      "name": "Après-midi",
-      "color": "#2B4162"
-    },
-    {
-      "id": 12,
-      "service_id": 6,
-      "name": "Après-midi",
-      "color": "#2B4162"
-    },
-    {
-      "id": 13,
-      "service_id": 1,
-      "name": "Soir",
-      "color": "#020969"
-    },
-    {
-      "id": 14,
-      "service_id": 2,
-      "name": "Soir",
-      "color": "#020969"
     }
   ],
   "services": [
@@ -154,18 +100,6 @@
     {
       "id": 3,
       "name": "Echo"
-    },
-    {
-      "id": 4,
-      "name": "Dentaire"
-    },
-    {
-      "id": 5,
-      "name": "Radio"
-    },
-    {
-      "id": 6,
-      "name": "Chirurgie"
     }
   ],
   "events": [
@@ -366,60 +300,6 @@
       "user_id": 2,
       "slot_id": 14,
       "date": "2023-03-21"
-    },
-    {
-      "id": 35,
-      "user_id": 3,
-      "slot_id": 15,
-      "date": "2023-03-21"
-    },
-    {
-      "id": 36,
-      "user_id": 4,
-      "slot_id": 16,
-      "date": "2023-03-21"
-    },
-    {
-      "id": 37,
-      "user_id": 5,
-      "slot_id": 17,
-      "date": "2023-03-21"
-    },
-    {
-      "id": 39,
-      "user_id": 7,
-      "slot_id": 1,
-      "date": "2023-03-22"
-    },
-    {
-      "id": 40,
-      "user_id": 8,
-      "slot_id": 2,
-      "date": "2023-03-22"
-    },
-    {
-      "id": 41,
-      "user_id": 9,
-      "slot_id": 3,
-      "date": "2023-03-22"
-    },
-    {
-      "id": 42,
-      "user_id": 10,
-      "slot_id": 4,
-      "date": "2023-03-22"
-    },
-    {
-      "id": 43,
-      "user_id": 11,
-      "slot_id": 5,
-      "date": "2023-03-22"
-    },
-    {
-      "id": 44,
-      "user_id": 12,
-      "slot_id": 6,
-      "date": "2023-03-22"
     }
   ]
 }
