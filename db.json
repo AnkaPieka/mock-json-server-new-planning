@@ -1,24 +1,1099 @@
 {
-    "events": [
-        {
-            "user_id": 109,
-            "slot_id": 1648,
-            "associate_id": null,
-            "date": "2022-09-09",
-            "message": null,
-            "special_event_types_ids": []
-        },
-        {
-            "user_id": 120,
-            "slot_id": 1649,
-            "associate_id": null,
-            "date": "2022-09-09"
-        },
-        {
-            "user_id": 110,
-            "slot_id": 1649,
-            "associate_id": null,
-            "date": "2022-09-09"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Rookie",
+      "last_name": "Cruz"
+    },
+    {
+      "id": 2,
+      "first_name": "Malik",
+      "last_name": "Patterson"
+    },
+    {
+      "id": 3,
+      "first_name": "Babette",
+      "last_name": "Robertson"
+    },
+    {
+      "id": 4,
+      "first_name": "Blacula",
+      "last_name": "Olson"
+    },
+    {
+      "id": 5,
+      "first_name": "Oliver",
+      "last_name": "Brown"
+    },
+    {
+      "id": 6,
+      "first_name": "Egeus",
+      "last_name": "Duncan"
+    },
+    {
+      "id": 7,
+      "first_name": "Ned",
+      "last_name": "Patterson"
+    },
+    {
+      "id": 8,
+      "first_name": "Nathan",
+      "last_name": "Matthews"
+    },
+    {
+      "id": 9,
+      "first_name": "Nour",
+      "last_name": "Miller"
+    },
+    {
+      "id": 10,
+      "first_name": "Stanislaus",
+      "last_name": "Phillips"
+    },
+    {
+      "id": 11,
+      "first_name": "Sora",
+      "last_name": "Carter"
+    },
+    {
+      "id": 12,
+      "first_name": "Thomas",
+      "last_name": "Holmes"
+    },
+    {
+      "id": 13,
+      "first_name": "Kit",
+      "last_name": "Allen"
+    },
+    {
+      "id": 14,
+      "first_name": "Bedrich",
+      "last_name": "Duncan"
+    },
+    {
+      "id": 15,
+      "first_name": "Maximilian",
+      "last_name": "Morri"
+    }
+  ],
+  "slots": [
+    {
+      "id": 1,
+      "service_id": 1,
+      "name": "Matin",
+      "color": "#7F9CC7"
+    },
+    {
+      "id": 2,
+      "service_id": 2,
+      "name": "Matin",
+      "color": "#7F9CC7"
+    },
+    {
+      "id": 3,
+      "service_id": 3,
+      "name": "Matin",
+      "color": "#7F9CC7"
+    },
+    {
+      "id": 4,
+      "service_id": 4,
+      "name": "Matin",
+      "color": "#7F9CC7"
+    },
+    {
+      "id": 5,
+      "service_id": 5,
+      "name": "Matin",
+      "color": "#7F9CC7"
+    },
+    {
+      "id": 6,
+      "service_id": 6,
+      "name": "Matin",
+      "color": "#7F9CC7"
+    },
+    {
+      "id": 7,
+      "service_id": 1,
+      "name": "Après-midi",
+      "color": "#2B4162"
+    },
+    {
+      "id": 8,
+      "service_id": 2,
+      "name": "Après-midi",
+      "color": "#2B4162"
+    },
+    {
+      "id": 9,
+      "service_id": 3,
+      "name": "Après-midi",
+      "color": "#2B4162"
+    },
+    {
+      "id": 10,
+      "service_id": 4,
+      "name": "Après-midi",
+      "color": "#2B4162"
+    },
+    {
+      "id": 11,
+      "service_id": 5,
+      "name": "Après-midi",
+      "color": "#2B4162"
+    },
+    {
+      "id": 12,
+      "service_id": 6,
+      "name": "Après-midi",
+      "color": "#2B4162"
+    },
+    {
+      "id": 13,
+      "service_id": 1,
+      "name": "Soir",
+      "color": "#020969"
+    },
+    {
+      "id": 14,
+      "service_id": 2,
+      "name": "Soir",
+      "color": "#020969"
+    },
+    {
+      "id": 15,
+      "service_id": 3,
+      "name": "Soir",
+      "color": "#020969"
+    },
+    {
+      "id": 16,
+      "service_id": 4,
+      "name": "Soir",
+      "color": "#020969"
+    },
+    {
+      "id": 17,
+      "service_id": 5,
+      "name": "Soir",
+      "color": "#020969"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Urgences"
+    },
+    {
+      "id": 2,
+      "name": "IRM"
+    },
+    {
+      "id": 3,
+      "name": "Echo"
+    },
+    {
+      "id": 4,
+      "name": "Dentaire"
+    },
+    {
+      "id": 5,
+      "name": "Radio"
+    },
+    {
+      "id": 6,
+      "name": "Chirurgie"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "slot_id": 1,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "slot_id": 2,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "slot_id": 3,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "slot_id": 4,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "slot_id": 5,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "slot_id": 6,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 7,
+      "user_id": 7,
+      "slot_id": 7,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 8,
+      "user_id": 8,
+      "slot_id": 8,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 9,
+      "user_id": 14,
+      "slot_id": 7,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 10,
+      "user_id": 15,
+      "slot_id": 8,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 11,
+      "user_id": 9,
+      "slot_id": 9,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 12,
+      "user_id": 10,
+      "slot_id": 10,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 13,
+      "user_id": 11,
+      "slot_id": 11,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 14,
+      "user_id": 12,
+      "slot_id": 12,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 15,
+      "user_id": 13,
+      "slot_id": 13,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 16,
+      "user_id": 14,
+      "slot_id": 14,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 17,
+      "user_id": 15,
+      "slot_id": 15,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 18,
+      "user_id": 1,
+      "slot_id": 16,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 19,
+      "user_id": 2,
+      "slot_id": 17,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 21,
+      "user_id": 4,
+      "slot_id": 1,
+      "date": "2023-03-20"
+    },
+    {
+      "id": 22,
+      "user_id": 5,
+      "slot_id": 2,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 23,
+      "user_id": 6,
+      "slot_id": 3,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 24,
+      "user_id": 7,
+      "slot_id": 4,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 25,
+      "user_id": 8,
+      "slot_id": 5,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 26,
+      "user_id": 9,
+      "slot_id": 6,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 27,
+      "user_id": 10,
+      "slot_id": 7,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 28,
+      "user_id": 11,
+      "slot_id": 8,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 29,
+      "user_id": 12,
+      "slot_id": 9,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 30,
+      "user_id": 13,
+      "slot_id": 10,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 31,
+      "user_id": 14,
+      "slot_id": 11,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 32,
+      "user_id": 15,
+      "slot_id": 12,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 33,
+      "user_id": 1,
+      "slot_id": 13,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 34,
+      "user_id": 2,
+      "slot_id": 14,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 35,
+      "user_id": 3,
+      "slot_id": 15,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 36,
+      "user_id": 4,
+      "slot_id": 16,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 37,
+      "user_id": 5,
+      "slot_id": 17,
+      "date": "2023-03-21"
+    },
+    {
+      "id": 39,
+      "user_id": 7,
+      "slot_id": 1,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 40,
+      "user_id": 8,
+      "slot_id": 2,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 41,
+      "user_id": 9,
+      "slot_id": 3,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 42,
+      "user_id": 10,
+      "slot_id": 4,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 43,
+      "user_id": 11,
+      "slot_id": 5,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 44,
+      "user_id": 12,
+      "slot_id": 6,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 45,
+      "user_id": 13,
+      "slot_id": 7,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 46,
+      "user_id": 14,
+      "slot_id": 8,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 47,
+      "user_id": 15,
+      "slot_id": 9,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 48,
+      "user_id": 1,
+      "slot_id": 10,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 49,
+      "user_id": 2,
+      "slot_id": 11,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 50,
+      "user_id": 3,
+      "slot_id": 12,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 51,
+      "user_id": 4,
+      "slot_id": 13,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 52,
+      "user_id": 5,
+      "slot_id": 14,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 53,
+      "user_id": 6,
+      "slot_id": 15,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 54,
+      "user_id": 7,
+      "slot_id": 16,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 55,
+      "user_id": 8,
+      "slot_id": 17,
+      "date": "2023-03-22"
+    },
+    {
+      "id": 57,
+      "user_id": 10,
+      "slot_id": 1,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 58,
+      "user_id": 11,
+      "slot_id": 2,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 59,
+      "user_id": 12,
+      "slot_id": 3,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 60,
+      "user_id": 13,
+      "slot_id": 4,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 61,
+      "user_id": 14,
+      "slot_id": 5,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 62,
+      "user_id": 15,
+      "slot_id": 6,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 63,
+      "user_id": 1,
+      "slot_id": 7,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 64,
+      "user_id": 2,
+      "slot_id": 8,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 65,
+      "user_id": 3,
+      "slot_id": 9,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 66,
+      "user_id": 4,
+      "slot_id": 10,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 67,
+      "user_id": 5,
+      "slot_id": 11,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 68,
+      "user_id": 6,
+      "slot_id": 12,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 69,
+      "user_id": 7,
+      "slot_id": 13,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 70,
+      "user_id": 8,
+      "slot_id": 14,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 71,
+      "user_id": 9,
+      "slot_id": 15,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 72,
+      "user_id": 10,
+      "slot_id": 16,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 73,
+      "user_id": 11,
+      "slot_id": 17,
+      "date": "2023-03-23"
+    },
+    {
+      "id": 75,
+      "user_id": 13,
+      "slot_id": 1,
+      "date": "2023-03-24"
+    },
+    {
+      "id": 76,
+      "user_id": 14,
+      "slot_id": 2,
+      "date": "2023-03-24"
+    },
+    {
+      "id": 77,
+      "user_id": 15,
+      "slot_id": 3,
+      "date": "2023-03-24"
+    },
+    {
+      "id": 1,
+      "user_id": 1,
+      "slot_id": 1,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "slot_id": 2,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "slot_id": 3,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "slot_id": 4,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "slot_id": 5,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "slot_id": 6,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 7,
+      "user_id": 7,
+      "slot_id": 7,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 8,
+      "user_id": 8,
+      "slot_id": 8,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 9,
+      "user_id": 14,
+      "slot_id": 7,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 10,
+      "user_id": 15,
+      "slot_id": 8,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 11,
+      "user_id": 9,
+      "slot_id": 9,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 12,
+      "user_id": 10,
+      "slot_id": 10,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 13,
+      "user_id": 11,
+      "slot_id": 11,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 14,
+      "user_id": 12,
+      "slot_id": 12,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 15,
+      "user_id": 13,
+      "slot_id": 13,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 16,
+      "user_id": 14,
+      "slot_id": 14,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 17,
+      "user_id": 15,
+      "slot_id": 15,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 18,
+      "user_id": 1,
+      "slot_id": 16,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 19,
+      "user_id": 2,
+      "slot_id": 17,
+      "date": "2023-03-27"
+    },
+    {
+      "id": 21,
+      "user_id": 4,
+      "slot_id": 1,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 22,
+      "user_id": 5,
+      "slot_id": 2,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 23,
+      "user_id": 6,
+      "slot_id": 3,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 24,
+      "user_id": 7,
+      "slot_id": 4,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 25,
+      "user_id": 8,
+      "slot_id": 5,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 26,
+      "user_id": 9,
+      "slot_id": 6,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 27,
+      "user_id": 10,
+      "slot_id": 7,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 28,
+      "user_id": 11,
+      "slot_id": 8,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 29,
+      "user_id": 12,
+      "slot_id": 9,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 30,
+      "user_id": 13,
+      "slot_id": 10,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 31,
+      "user_id": 14,
+      "slot_id": 11,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 32,
+      "user_id": 15,
+      "slot_id": 12,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 33,
+      "user_id": 1,
+      "slot_id": 13,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 34,
+      "user_id": 2,
+      "slot_id": 14,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 35,
+      "user_id": 3,
+      "slot_id": 15,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 36,
+      "user_id": 4,
+      "slot_id": 16,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 37,
+      "user_id": 5,
+      "slot_id": 17,
+      "date": "2023-03-28"
+    },
+    {
+      "id": 39,
+      "user_id": 7,
+      "slot_id": 1,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 40,
+      "user_id": 8,
+      "slot_id": 2,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 41,
+      "user_id": 9,
+      "slot_id": 3,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 42,
+      "user_id": 10,
+      "slot_id": 4,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 43,
+      "user_id": 11,
+      "slot_id": 5,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 44,
+      "user_id": 12,
+      "slot_id": 6,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 45,
+      "user_id": 13,
+      "slot_id": 7,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 46,
+      "user_id": 14,
+      "slot_id": 8,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 47,
+      "user_id": 15,
+      "slot_id": 9,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 48,
+      "user_id": 1,
+      "slot_id": 10,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 49,
+      "user_id": 2,
+      "slot_id": 11,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 50,
+      "user_id": 3,
+      "slot_id": 12,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 51,
+      "user_id": 4,
+      "slot_id": 13,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 52,
+      "user_id": 5,
+      "slot_id": 14,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 53,
+      "user_id": 6,
+      "slot_id": 15,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 54,
+      "user_id": 7,
+      "slot_id": 16,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 55,
+      "user_id": 8,
+      "slot_id": 17,
+      "date": "2023-03-29"
+    },
+    {
+      "id": 57,
+      "user_id": 10,
+      "slot_id": 1,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 58,
+      "user_id": 11,
+      "slot_id": 2,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 59,
+      "user_id": 12,
+      "slot_id": 3,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 60,
+      "user_id": 13,
+      "slot_id": 4,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 61,
+      "user_id": 14,
+      "slot_id": 5,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 62,
+      "user_id": 15,
+      "slot_id": 6,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 63,
+      "user_id": 1,
+      "slot_id": 7,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 64,
+      "user_id": 2,
+      "slot_id": 8,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 65,
+      "user_id": 3,
+      "slot_id": 9,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 66,
+      "user_id": 4,
+      "slot_id": 10,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 67,
+      "user_id": 5,
+      "slot_id": 11,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 68,
+      "user_id": 6,
+      "slot_id": 12,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 69,
+      "user_id": 7,
+      "slot_id": 13,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 70,
+      "user_id": 8,
+      "slot_id": 14,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 71,
+      "user_id": 9,
+      "slot_id": 15,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 72,
+      "user_id": 10,
+      "slot_id": 16,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 73,
+      "user_id": 11,
+      "slot_id": 17,
+      "date": "2023-03-30"
+    },
+    {
+      "id": 75,
+      "user_id": 13,
+      "slot_id": 1,
+      "date": "2023-03-31"
+    },
+    {
+      "id": 76,
+      "user_id": 14,
+      "slot_id": 2,
+      "date": "2023-03-31"
+    },
+    {
+      "id": 77,
+      "user_id": 15,
+      "slot_id": 3,
+      "date": "2023-03-31"
+    },
+    {
+      "user_id": 4,
+      "date": "2023-03-24",
+      "slot_id": 4,
+      "id": 78
+    },
+    {
+      "user_id": 7,
+      "date": "2023-03-24",
+      "slot_id": 10,
+      "id": 80
+    }
+  ]
 }
